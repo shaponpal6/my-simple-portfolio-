@@ -18,6 +18,22 @@
       "__v": 0
     },
     {
+      "_id": "project-2.1",
+      "name": "Single Page Portfolio App using webpack",
+      "urlImage": "https://d33wubrfki0l68.cloudfront.net/5f4e4afda6bd920007b3032f/screenshot.png",
+      "urlWebsite": "https://frosty-davinci-86b8d5.netlify.app",
+      "urlRepository": "https://github.com/shaponpal6/single-page-portfolio-app-using-webpack",
+      "__v": 0
+    },
+    {
+      "_id": "project-2.2",
+      "name": "Virtual Assistant chatbot with preact, rudex, webpack",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/virtual-assistant-chatbot-project-2/master/preview.jpg",
+      "urlWebsite": "https://docs.mrassistant.tech/",
+      "urlRepository": "https://github.com/shaponpal6/virtual-assistant-chatbot-project-2",
+      "__v": 0
+    },
+    {
       "_id": "project-3",
       "name": "Youtube Plus Downloader Laravel",
       "urlImage": "https://raw.githubusercontent.com/shaponpal6/youtube-dowloader-using-api-and-laravel/master/youtube-dowloader-using-api-and-laravel.png",
