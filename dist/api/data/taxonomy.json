@@ -1,0 +1,25 @@
+{
+  "message": "Taxonomy",
+  "data": [
+    {
+      "_id": 1,
+      "name": "WordPress Plugin Development"
+    },
+    {
+      "_id": 2,
+      "name": "WordPress Theme Development"
+    },
+    { 
+      "_id": 3,
+       "name": "WordPress Bug Fixing" 
+    },
+    { 
+      "_id": 4,
+       "name": "WordPress Chatbot Application" 
+    },
+    { 
+      "_id": 5,
+       "name": "WordPress Realtime Application" 
+    }
+  ]
+}

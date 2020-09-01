@@ -1,0 +1,111 @@
+{
+    "message":"My Services",
+    "data":[
+       {
+          "_id":"5deef8e601686747544f932c",
+          "name":"WordPress Development",
+          "category":"wordpress",
+          "tags": [
+             "Core Plugin Development", 
+             "Theme Development", 
+             "Bug Fixing",
+             "Chatbot Application",
+             "Realtime Application"
+            ],
+          "shortDescription":"I'm WordPress expert having 7 years of experiences.",
+          "description":"My experience in building high-quality, responsive mobile sites that work perfect cross-browser to building scalable websites for any industry. I build Static, single page application(SPA), Dynamics Websites Development working as frontend developers as well as backend development, setup and customization of WordPress, WordPress Development, Speed Optimization, Page Optimization, Website Optimization, and Website Development.",
+          "buttonText":"See Projects on GitHub",
+          "fontAwesome":"fa fa-wordpress",
+          "targetUrl":"#id",
+          "__v":0
+       },
+       {
+          "_id":"5deef9b02e3b5b38b0815778",
+          "name":"NodeJS Developer",
+          "category":"nodejs",
+          "tags": [
+            "Single Page Application(SPA)", 
+            "Realtime Application", 
+            "Chatbot with socket.io, mongoDB",
+            "Multi page application",
+            "React, Preact, Redux Application"
+           ],
+          "shortDescription":"I'm Node JS expert having 4 years of experiences.",
+          "description":"My experience in building high-performence application that work perfect cross-browser to building scalable websites for any industry. I build Static, single/multi page application, Dynamics Websites Development working on state management as frontend developers as well as backend development, Speed Optimization, Page Optimization.",
+          "buttonText":"See Project on GitHub",
+          "fontAwesome":"fa fa-wordpress",
+          "targetUrl":"#id",
+          "__v":0
+       },
+       {
+          "_id":"5deefa942e3b5b38b0815779",
+          "name":"Python Developer",
+          "category":"python",
+          "tags": [
+            "Web Application with Django", 
+            "Web Scriping with Selenium",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Data Analysis"
+           ],
+         "shortDescription":"I'm a simple Python Developer",
+          "description":"I'm a simple Python Developer having 2 years of experiences. I have good experience in web scriping with beautifulsoup and selenium webdriver. I can also develop and build web application with dgango. I have good research on Artificial Intelligence, Machine Learning, Data Analysis.",
+          "buttonText":"See Projects on GitHub",
+          "fontAwesome":"fa fa-wordpress",
+          "targetUrl":"#id",
+          "__v":0
+       },
+       {
+          "_id":"5deefadd2e3b5b38b081577a",
+          "name":"Mobile App Developer",
+          "category":"mobile",
+          "tags": [
+            "Android App Development", 
+            "Website to Mobile App", 
+            "Android Studio",
+            "Mobile App using API"
+           ],
+          "shortDescription":"I'm certified Mobile App Developer",
+          "description":"I am certified Mobile App Developer. I build core Android App using Android Studio. I can convert website into Android App using API.",
+          "buttonText":"See Projects on GitHub",
+          "fontAwesome":"fa fa-wordpress",
+          "targetUrl":"#id",
+          "__v":0
+       },
+       {
+          "_id":"5deefc1e2e3b5b38b081577b",
+          "name":"Web Application Development",
+          "category":"webApplication",
+          "tags": [
+            "Web Application Development", 
+            "Restful API Development", 
+            "Back-end Development",
+            "React Laravel Application"
+           ],
+          "shortDescription":"I'm expert in Laravel and Codeigniter.",
+          "description":"I'm expert in Laravel and Codeigniter having 5 years of experiences. My experience in building high-performence web application and building scalable websites. I build Static, single/multi page application, Dynamics Websites Development working on state management as frontend developers as well as backend development, Speed Optimization, Page Optimization.",
+          "buttonText":"See Projects on GitHub",
+          "fontAwesome":"fa fa-wordpress",
+          "targetUrl":"#id",
+          "__v":0
+       },
+       {
+          "_id":"5e0639c20cdd2c285024b293",
+          "name":"Project Management & Testing",
+          "category":"testing",
+          "tags": [
+            "AGILE methodology", 
+            "PHPUnit for PHP", 
+            "JEST for JavaScript",
+            "CI/CD: Gitlab/Teamcity/Jenkins",
+            "Well documented, Clean & Standard code with best practices"
+           ],
+          "shortDescription":"Advance WordPress Plugin Development",
+          "description":"I have mentoring experience and I can lead a small team.I prefer strategic approach by understanding Client's goals and objectives. I make thorough analysis, decompose them, and propose solutions before hitting the ground running.My code is solid, clean and well structured, so that it's easy to maintain.I'm up to date with best developing practices.",
+          "buttonText":"Ecommerce site",
+          "fontAwesome":"fa fa-wordpress",
+          "targetUrl":"#id",
+          "__v":0
+       }
+    ]
+ }
