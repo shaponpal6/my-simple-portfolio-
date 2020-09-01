@@ -1,0 +1,10 @@
+.SkillItem{
+    display: flex;
+    align-items: center;
+}
+
+.SkillItem__icon{
+    height: 32px;
+    width: 32px;
+    margin-right: 1em;
+}

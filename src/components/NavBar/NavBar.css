@@ -1,0 +1,55 @@
+.NavBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+
+.NavBar .NavBar__button{
+    color: var(--color-white);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    font-size: 3em;
+    height: 70px;
+    width: 70px;
+    right: .5em;
+    top: 1em;
+    position: absolute;
+    z-index: 1000;
+}
+
+.NavBar__button.active::before{
+    content: "\f00d";
+    font-family: 'FontAwesome';
+}
+
+.NavBar nav{
+    align-items: center;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    font-weight: 700;
+    height: 0vh;
+    justify-content: center;
+    overflow: hidden;
+    transition: all ease .42s;
+}
+
+.NavBar nav a{
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.NavBar nav a:hover{
+    transform: scale(1.1);
+}
+
+.NavBar__button.active + nav{
+    height: 100vh;    
+}

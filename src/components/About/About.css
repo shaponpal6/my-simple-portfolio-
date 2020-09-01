@@ -1,0 +1,38 @@
+
+.About .wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.About__info{
+    width: 90%;
+    font-size: 2.3em;
+}
+
+@media only screen and (min-width: 700px){
+    .About .wrapper{
+        flex-direction: row;
+    }
+    .About__info{
+        width: 60%;
+    }
+}
+
+
+.About__info .About__title{
+    color: var(--color-yellow);
+}
+
+.About__info p{
+    color: var(--color-white);
+}
+
+.About__logo{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 260px;
+    width: 260px;
+}

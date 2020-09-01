@@ -1,0 +1,29 @@
+.Contact .wrapper{
+    padding: 3em 0;
+    text-align: center;
+}
+
+.Contact .wrapper .Contact__title{
+    color: var(--color-green);
+    font-size: 2.2rem;
+}
+
+.Contact__contact-option{
+    border-radius: 30px;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 2em;
+    padding: 1em;
+}
+
+@media screen and (min-width: 700px){
+    .Contact__contact-option {
+        margin-right: 1em;
+        padding: .6em 2em;
+    }
+}
+
+.Contact__contact-option i{
+    color: var(--color-gray);
+    margin-right: .6em;
+}

@@ -1,0 +1,66 @@
+{
+  "message": "Current works",
+  "data": [
+    {
+      "_id": "project-1",
+      "name": "Mr. Assistant - AI chatbot plugin for WordPress",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/Mr.-Assistant-AI-chatbot-plugin-for-WordPress/master/preview.jpg",
+      "urlWebsite": "https://shop.mrassistant.tech/",
+      "urlRepository": "https://github.com/shaponpal6/Mr.-Assistant-AI-chatbot-plugin-for-WordPress",
+      "__v": 0
+    },
+    {
+      "_id": "project-2",
+      "name": "Mr. Assistant - live chatbot plugin for WordPress",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/Mr.-Assistant-live-chatbot-plugin-for-WordPress/master/preview.jpg",
+      "urlWebsite": "https://docs.mrassistant.tech/",
+      "urlRepository": "https://github.com/shaponpal6/Mr.-Assistant-live-chatbot-plugin-for-WordPress",
+      "__v": 0
+    },
+    {
+      "_id": "project-3",
+      "name": "Youtube Plus Downloader Laravel",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/youtube-dowloader-using-api-and-laravel/master/youtube-dowloader-using-api-and-laravel.png",
+      "urlWebsite": "https://github.com/shaponpal6/youtube-dowloader-using-api-and-laravel",
+      "urlRepository": "https://github.com/shaponpal6/youtube-dowloader-using-api-and-laravel",
+      "__v": 0
+    },
+    {
+      "_id": "project-4",
+      "name": "Digital-Railway-Android-App",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/Digital-Railway-Android-App/master/Digital-Railway-Android-App.png",
+      "urlWebsite": "https://github.com/shaponpal6/Digital-Railway-Android-App",
+      "urlRepository": "https://github.com/shaponpal6/Digital-Railway-Android-App",
+      "__v": 0
+    },
+    {
+      "_id": "project-5",
+      "name": "Python Django Selenium web scraper",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/Python-Django-Selenium-web-scraper/master/Python-Django-Selenium-web-scraper.png",
+      "urlWebsite": "https://www.nfl.com/",
+      "urlRepository": "https://github.com/shaponpal6/Python-Django-Selenium-web-scraper",
+      "__v": 0
+    },
+    {
+      "_id": "project-6",
+      "name": "PYTHON Youtube playlist downloader [.exe]",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/PYTHON-Youtube-playlist-downloader/master/PYTHON-Youtube-playlist-downloader.jpg",
+      "urlWebsite": "https://github.com/shaponpal6/PYTHON-Youtube-playlist-downloader",
+      "urlRepository": "https://github.com/shaponpal6/PYTHON-Youtube-playlist-downloader"
+    },
+    {
+      "_id": "project-7",
+      "name": "Project code sharing WordPress Theme",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/WordPress-Theme-project-code-sharing/master/WordPress-Theme-project-code-sharing.png",
+      "urlWebsite": "https://github.com/shaponpal6/WordPress-Theme-project-code-sharing",
+      "urlRepository": "https://github.com/shaponpal6/WordPress-Theme-project-code-sharing"
+    },
+    {
+      "_id": "project-8",
+      "name": "Online Meetings asynchronous Button ",
+      "urlImage": "https://raw.githubusercontent.com/shaponpal6/showbutler/master/showbutler.png",
+      "urlWebsite": "https://github.com/shaponpal6/showbutler",
+      "urlRepository": "https://github.com/shaponpal6/showbutler"
+    }
+  ]
+}

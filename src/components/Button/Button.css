@@ -1,0 +1,39 @@
+.Button{
+    background-color: var(--color-primary);
+    border: solid 3px var(--color-white);
+    border-radius: 40px;
+    color: var(--color-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    min-height: 50px;
+    padding: 1rem 2rem;
+    transition: all ease-out .2s;
+}
+
+.Button.active{
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.Button:first-of-type{
+    margin-right: 1rem;
+}
+
+.Button__text{
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+.Button:hover{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+@media only screen and (min-width: 700px){
+    .Button{
+        font-size: 1.3rem;
+    }
+}

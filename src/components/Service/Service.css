@@ -1,0 +1,102 @@
+.Service {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: var(--color-green);
+  color: var(--color-primary);
+  border-radius: 3px;
+}
+.Service__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+}
+
+.Service__icon i {
+  font-size: 6em;
+}
+
+.Service__name h2 {
+  font-size: 3em;
+}
+
+.Service__description h4 {
+  font-size: 2em;
+}
+
+.Service__projects {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  background: var(--color-red);
+  color: var(--color-white);
+  border-radius: 0 3px 0 2em;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.Service-project-description {
+  background: var(--color-off-screen);
+  color: var(--color-white);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  padding: 2em;
+  font-size: 2em;
+  display: none;
+}
+
+.Service__cursor:hover > .Service-project-description {
+  z-index: 100;
+  display: flex;
+}
+
+.Service__bar {
+  align-items: center;
+  background-color: var(--color-yellow);
+  color: var(--color-primary);
+  display: flex;
+  font-size: 2em;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2em;
+  text-transform: capitalize;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+
+.Service__bar a {
+  margin-right: 1em;
+  transition: all ease-in 0.2s;
+}
+
+.Service__bar a:hover {
+  transform: scale(1.1);
+}
+
+.Service:hover > .Service__cover {
+  transform: rotate(1deg);
+}
+
+@media only screen and (min-width: 700px) {
+  .Service {
+    width: 30%;
+  }
+  /* .Service:last-of-type {
+    margin: 0;
+  } */
+}
+
+@media only screen and (min-width: 1200px) {
+  /* .Service{
+        height: 10rem;
+    } */
+}

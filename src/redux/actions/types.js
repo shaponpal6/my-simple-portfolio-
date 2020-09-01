@@ -1,0 +1,6 @@
+export const LOAD_SERVICES = "LOAD_SERVICES";
+export const LOAD_SKILLS = "LOAD_SKILLS";
+export const LOAD_WORKS = "LOAD_WORKS";
+export const LOAD_TAXONOMY = "LOAD_TAXONOMY";
+export const LOAD_PROJECT_TAXONOMY= "LOAD_PROJECT_TAXONOMY";
+export const SET_LOADING = "LOADING";

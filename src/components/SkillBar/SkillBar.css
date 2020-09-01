@@ -1,0 +1,36 @@
+.SkillBar{
+    width: 90%;
+}
+
+.SkillBar__text{
+    color: var(--color-green);
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+
+.SkillBar__bar{
+    height: 12px;
+    border-radius: 10px;
+}
+
+.SkillBar__thumb{
+    background-color: var(--color-bar-thumb);
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 2;
+}
+
+.SkillBar__box{
+    background-color: var(--color-white);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 1;
+}
