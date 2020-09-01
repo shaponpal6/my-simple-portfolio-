@@ -15,7 +15,7 @@ const { apiUrl } = keys;
 export const loadServices = () => {
   return async (dispatch) => {
     try {
-      let request = await axios.get(`${apiUrl}/api/data/services.json`);
+      let request = await axios.get(`${apiUrl}api/data/services.json`);
       dispatch({
         type: LOAD_SERVICES,
         payload: request.data,
@@ -31,7 +31,7 @@ export const loadSkills = (time) => {
   return (dispatch) => {
     dispatch({ type: SET_LOADING, payload: true });
     setTimeout(async () => {
-      let req = await axios.get(`${apiUrl}/api/data/skills.json`);
+      let req = await axios.get(`${apiUrl}api/data/skills.json`);
       if (req.status === 200) {
         dispatch({
           type: LOAD_SKILLS,
@@ -61,7 +61,7 @@ export const loadProjects = () => {
   
   return async (dispatch) => {
     try {
-      let request = await axios.get(`${apiUrl}/api/data/works.json`);
+      let request = await axios.get(`${apiUrl}api/data/works.json`);
       
       dispatch({
         type: LOAD_WORKS,
@@ -78,7 +78,7 @@ export const loadTaxonomy = () => {
   console.log('taxomony loding....')
   return async (dispatch) => {
     try {
-      let request = await axios.get(`${apiUrl}/api/data/taxonomy.json`);
+      let request = await axios.get(`${apiUrl}api/data/taxonomy.json`);
       console.log(request)
       dispatch({
         type: LOAD_TAXONOMY,
@@ -94,7 +94,7 @@ export const loadTaxonomy = () => {
 export const loadProjectTaxonomy = () => {
   return async (dispatch) => {
     try {
-      let request = await axios.get(`${apiUrl}/api/data/project-taxonomy.json`);
+      let request = await axios.get(`${apiUrl}api/data/project-taxonomy.json`);
       dispatch({
         type: LOAD_PROJECT_TAXONOMY,
         payload: request.data,
