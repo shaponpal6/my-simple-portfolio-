@@ -5,8 +5,6 @@ const INITIAL_STATE = {
 }
 
 const taxonomyReducer = (state = INITIAL_STATE,{ type, payload}) => {
-    console.log(type);
-    console.log(payload);
     switch(type){
         case LOAD_TAXONOMY:
             return {

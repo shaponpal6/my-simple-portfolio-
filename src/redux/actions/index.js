@@ -58,11 +58,11 @@ export const setLoading = (value) => {
 
 //Projects 
 export const loadProjects = () => {
-  console.log('pppp loding....')
+  
   return async (dispatch) => {
     try {
       let request = await axios.get(`${apiUrl}/api/data/works.json`);
-      console.log(request)
+      
       dispatch({
         type: LOAD_WORKS,
         payload: request.data,

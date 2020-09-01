@@ -1,3 +1,8 @@
+const host = global.location.href;
+var baseurl= host.replace(new RegExp("(.*/)[^/]+$"),"$1");
+
+
 export const keys = {
-    apiUrl: process.env.API_URL
+    apiUrl: baseurl,
+    apiUrl2: process.env.API_URL
 }

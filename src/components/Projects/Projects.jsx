@@ -10,7 +10,6 @@ import {
 import { connect } from "react-redux";
 
 const Projects = (props) => {
-  console.log(props);
   const { projects, loadProjects} = props;
 
   useEffect(() => {
@@ -19,7 +18,6 @@ const Projects = (props) => {
 
   // Load Project
   let projectList = projects.map((project) => {
-    console.log(project);
     return <Project key={project._id} info={project} />;
   });
 
@@ -42,8 +40,6 @@ const Projects = (props) => {
 };
 
 const mapStateToProps = (state, ownProps) => {
-  console.log(state);
-  console.log(ownProps);
   return {
     projects: state.projects.projects,
   };
