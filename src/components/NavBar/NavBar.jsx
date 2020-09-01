@@ -23,7 +23,7 @@ const NavBar = () => {
       ></button>
       <nav className="relative">
         <a onClick={handleScrollTop} duration={500} className="mb-2">Welcome</a>
-        <Link to="Skills" onClick={handleClick} smooth={true} duration={500} className="mb-2">Skills</Link>
+        <Link to="Services" onClick={handleClick} smooth={true} duration={500} className="mb-2">Services</Link>
         <Link to="About" onClick={handleClick} smooth={true} duration={500} className="mb-2">About Me</Link>
         <Link to="Project" onClick={handleClick} smooth={true} duration={500} className="mb-2">Projects</Link>
         <Link to="Contact" onClick={handleClick} smooth={true} duration={500} className="mb-2">Contact Me</Link>
